@@ -704,8 +704,8 @@ tailwind.config = {
             <h4 class="text-2xl font-extrabold text-slate-900">Elementary</h4>
           </div>
           <div class="text-right">
-            <p class="text-sm text-slate-400 line-through">Rp 995.000</p>
-            <p class="text-2xl font-extrabold text-sky-600">Rp 695.000</p>
+            <p class="text-xs md:text-sm text-slate-400 line-through">Rp 995.000</p>
+            <p class="text-xl md:text-2xl font-extrabold text-sky-600 leading-tight">Rp 695.000</p>
           </div>
         </div>
         <ul class="space-y-2.5 mb-6">
@@ -721,19 +721,38 @@ tailwind.config = {
         </a>
       </div>
 
-      <!-- N3 — Highlighted -->
-      <div class="reveal pricing-highlight rounded-2xl p-6 md:p-8 relative overflow-hidden">
-        <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-sky-500 text-white text-[10px] font-bold uppercase tracking-wider">Terpopuler</div>
-        <div class="flex items-center justify-between mb-5">
-          <div>
-            <span class="text-xs font-bold text-sky-500 uppercase tracking-wider">Level N3</span>
-            <h4 class="text-2xl font-extrabold text-slate-900">Intermediate</h4>
-          </div>
-          <div class="text-right">
-            <p class="text-sm text-slate-400 line-through">Rp 1.295.000</p>
-            <p class="text-2xl font-extrabold text-sky-600">Rp 1.095.000</p>
-          </div>
-        </div>
+<!-- N3 — Highlighted -->
+<div class="reveal pricing-highlight rounded-2xl p-6 md:p-8 pt-10 relative overflow-hidden">
+
+  <!-- Badge -->
+  <div class="absolute top-4 left-4 px-2.5 py-1 rounded-full bg-sky-500 text-white text-[9px] font-bold uppercase tracking-wider">
+    Terpopuler
+  </div>
+
+  <!-- Header -->
+  <div class="flex items-center justify-between mb-5">
+
+    <div>
+      <span class="text-xs font-bold text-sky-500 uppercase tracking-wider">
+        Level N3
+      </span>
+
+      <h4 class="text-2xl font-extrabold text-slate-900">
+        Intermediate
+      </h4>
+    </div>
+
+    <div class="text-right">
+      <p class="text-xs md:text-sm text-slate-400 line-through">
+        Rp 1.295.000
+      </p>
+
+      <p class="text-lg md:text-2xl font-extrabold text-sky-600 leading-tight">
+        Rp 1.095.000
+      </p>
+    </div>
+
+  </div>
         <ul class="space-y-2.5 mb-6">
           <li class="flex items-start gap-2.5 text-sm text-slate-600"><svg class="w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>Full Modul 2 Bulan Lulus N3 (dari N4)</li>
           <li class="flex items-start gap-2.5 text-sm text-slate-600"> <svg class="w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/> </svg> Bonus materi Level sebelumnya: N5 & N4 Gratis </li>
@@ -756,8 +775,8 @@ tailwind.config = {
             <h4 class="text-2xl font-extrabold text-slate-900">Advance</h4>
           </div>
           <div class="text-right">
-            <p class="text-sm text-slate-400 line-through">Rp 1.839.000</p>
-            <p class="text-2xl font-extrabold text-sky-600">Rp 1.395.000</p>
+            <p class="text-xs md:text-sm text-slate-400 line-through">Rp 1.839.000</p>
+            <p class="text-xl md:text-2xl font-extrabold text-sky-600 leading-tight">Rp 1.395.000</p>
           </div>
         </div>
         <ul class="space-y-2.5 mb-6">
@@ -877,6 +896,10 @@ function toggleFaq(button) {
 
 </body>
 </html>
+
+
+
+
 
 
 
